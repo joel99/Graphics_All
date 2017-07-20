@@ -1,0 +1,14 @@
+frames 49
+basename simple
+push
+move 500 0 0 tx
+move 0 100 0 tUp
+sphere 0 0 0 100 
+vary tx 0 49 0 1
+vary tUp 0 6 0 1
+vary tUp 7 13 1 0
+vary tUp 14 20 0 1
+vary tUp 21 27 1 0
+vary tUp 28 34 0 1
+vary tUp 35 41 1 0
+vary tUp 42 48 0 1

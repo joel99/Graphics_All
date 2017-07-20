@@ -1,0 +1,17 @@
+frames 100
+basename simple
+push
+move 250 250 0
+scale 1.5 1.5 1.5 bigenator
+rotate z 360 spinny
+move 400 0 0 mover
+rotate y 360 wild
+sphere 200 0 0 50
+sphere -200 0 0 50
+sphere 0 200 0 50
+sphere 0 -200 0 50
+vary spinny 0 99 0 1
+vary bigenator 0 49 0 1
+vary bigenator 50 99 1 0
+vary mover 0 99 0 1
+vary wild 0 99 0 1

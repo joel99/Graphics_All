@@ -1,0 +1,67 @@
+#BODY
+push
+move
+250 200 0
+box
+-100 125 50 200 200 100
+#HEAD
+push
+rotate
+y 90
+move
+0 120 0
+sphere
+0 0 0 50
+pop
+#LEFT ARM
+push
+move
+-100 125 0
+rotate
+z -135
+box
+-40 0 40 40 100 80
+#LEFT LOWER ARM
+push
+move
+-20 -100 0
+box
+-10 0 10 20 125 20
+pop
+pop
+#RIGHT ARM
+push
+move
+100 125 0
+rotate
+z 45
+rotate
+x -105
+box
+0 0 40 40 100 80
+#RIGHT LOWER ARM
+push
+move
+20 -100 0
+rotate
+x -60
+box
+-10 0 10 20 125 20
+pop
+pop
+#LEFT LEG
+push
+move
+-100 -75 0
+box
+0 0 40 50 170 80
+pop
+#RIGHT LEG
+push
+move
+100 -75 0
+box
+-50 0 40 50 170 80
+display
+save
+face.png
